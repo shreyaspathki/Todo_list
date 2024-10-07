@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.firstline{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.field{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.task, .dates {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.js-todo {
+    padding: 10px;
+    background-color: #feb47b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.js-html {
+    margin-top: 20px;
+}
+
+.todo-item {
+    background: #ff7e5f;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
